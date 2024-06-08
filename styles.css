@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.bg{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.1;
+}
+
+.nameTitle{
+  top: 0;
+  position: absolute;
+  right: 5%;
+  font-family: 'Amatic SC';
+  font-size: 1.8rem;
+}
+
+.cm1{
+    position: absolute;
+    top: 30px;
+    left: 25%;
+    font-family: 'Amatic SC';
+    font-size: 1.2rem;
+}
+
+
+
+.rwBg{
+    position: absolute;
+    left: 8%;
+    margin-top: 3%;
+    border-left: 1px solid #000;
+    border-top: 1px solid #000;
+    padding-left:30px;
+    padding-bottom: 9px;
+    width: 180px;
+    height: 550px;
+    z-index: 99;
+    cursor: pointer;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 20%;
+    height: 600px;
+    width: 18%;
+    border: 1px solid #ffffff54;
+    overflow: hidden; 
+  }
+
+.inputBox{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 30%;
+    right: 25%;
+}
+
+input{
+    margin-top: 5px;
+    padding: 15px;
+}
+
+label{
+  font-family: "Caveat";
+  font-size: 1.6rem;
+}
+
+
+  #heightInput {
+    border: 2px solid #030303;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    
+  }
+
+
+  #heightInput.invalid {
+    border-color: red;
+  }
+
+  #dynamicImage {
+    display: none; 
+    max-width: 100%;
+    height: auto;
+    transform: scaleX(-1);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: height 0.3s ease; 
+    cursor: pointer;
+  }
+
+  .about-container{
+    top: 57%;
+    right: 15%;
+    position: absolute;
+    width: 390px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(241, 243, 243);
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+
+  .abtImg{
+    width: 30%;
+    padding: 15px;
+    border-radius: 25px 0 0 25px;
+  }
+
+  .about-container>p{
+    padding: 15px;
+    margin-left: 0px;
+    line-height: 24px;
+    font-family: 'Urbanist';
+    font-size: 0.9rem;
+  }
+
+  #dialog-box{
+    position: absolute;
+    background-color: #fff;
+    border-radius: 18px 10px 18px 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    top: 3%;
+    left: 20%;
+    width: 200px;
+    text-align: center;
+    padding: 20px 18px;
+    font-family: 'Roboto';
+    font-size: 0.82rem;
+    z-index: 99;
+    display: none;
+  }
